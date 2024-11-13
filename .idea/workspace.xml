@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745b070c-1a99-4b13-8aa8-d38b86aec2aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwitchVideoDownloader/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitchVideoDownloader/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/TwitchVideoDownloader/popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitchVideoDownloader/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/TwitchVideoDownloader/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

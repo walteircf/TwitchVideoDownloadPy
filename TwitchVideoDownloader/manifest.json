@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Video Downloader",
+  "version": "1.0",
+  "description": "Download Twitch videos directly.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permission": [
+    "activeTab",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "*://*.twitch.tv/*"
+  ]
+}
