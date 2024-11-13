@@ -1,0 +1,88 @@
+/* Estrutura */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serify;
+}
+
+body {
+    background-color: #0e0e10;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #9146FF;
+    margin-bottom: 20px;
+}
+
+/* Campo de entrada */
+#video-url {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: #333;
+    border: 1px solid #9146FF;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+#video-url:focus {
+    border-color: #772CE8;
+    outline: none;
+}
+
+/* Botão de Download */
+#download-button {
+    background-color: #9146FF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+#download-button:hover {
+    background-color: #772CE8;
+}
+
+#download-button:active {
+    transform: sacle(0.95);
+}
+
+/* Animação de foco e hover */
+input:focus, button:focus {
+    outline: none;
+}
+
+#download-button:hover {
+    box-shadow: 0 4px 8px rgba(145, 70, 255, 0.4);
+}
+
+/* Efeitos adicionais */
+#download-button {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: 0 0 10px rgba(145, 70, 255, 0.6);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(145, 70, 255, 1);
+    }
+}
